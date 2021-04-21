@@ -24,6 +24,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
+          onClick={(event) => (window.location.href = "/services")}
         >
           RESUME <i class="fas fa-file-alt"></i>
         </Button>
@@ -31,7 +32,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
-          onClick={console.log("hey")}
+          onClick={(event) => (window.location.href = "/products")}
         >
           PROJECTS <i class="fas fa-tasks"></i>
         </Button>

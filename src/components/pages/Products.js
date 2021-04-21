@@ -1,6 +1,11 @@
-import React from 'react';
-import '../../App.css';
+import React from "react";
+import "../../App.css";
 
 export default function Products() {
-  return <h1 className='products'>PRODUCTS</h1>;
+  return (
+    <div>
+      <h1 className="products">PROJECTS</h1>
+      <p>work in progress!!</p>
+    </div>
+  );
 }
