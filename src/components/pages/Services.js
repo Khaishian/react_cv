@@ -1,11 +1,11 @@
 import React from "react";
 import "../../App.css";
+import ResumePoints from "../ResumePoints";
 
 export default function Services() {
   return (
     <div>
-      <h1 className="products">RESUME</h1>
-      <p>work in progress!!</p>
+      <ResumePoints />
     </div>
   );
 }

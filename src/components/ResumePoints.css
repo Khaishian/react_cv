@@ -1,0 +1,205 @@
+.resume-background {
+  background-image: url("./../images/working.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* height: 1000px; */
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.resume-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.resume-card {
+  margin-top: 20px;
+  padding: 15px;
+  height: 170px;
+  width: 470px;
+  color: #000;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.resume-card > h2 {
+  text-align: center;
+}
+
+.resume-card > p {
+  font-size: 14px;
+}
+
+.resume-card > table {
+  font-size: 14px;
+}
+
+.personal {
+  height: 200px;
+}
+
+.personal-table-container {
+  margin-top: 10px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  height: 130px;
+}
+
+.intro > p {
+  text-align: center;
+}
+
+.khai-person {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 20px 20px 0px 0px;
+  border-radius: 50%;
+  border: 3px solid rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.intro > p {
+  margin-top: 10px;
+}
+
+.personal-info {
+  display: flex;
+  justify-content: center;
+}
+
+.edu {
+  height: 230px;
+}
+
+.f6-logo {
+  margin: -10px 0px;
+  height: 100px;
+  width: 100px;
+}
+
+.edu > table > tr > td {
+  padding: 0px 20px 0px 40px;
+}
+
+.um-logo {
+  margin: -10px 0px;
+  height: 100px;
+  width: 100px;
+}
+
+.wdlang {
+  height: 150px;
+}
+
+.wdlang-list {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.wdlang-list > ul {
+  margin: 10px 20px;
+}
+
+.lang {
+  height: 150px;
+}
+
+.lang-list {
+  font-size: 14px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.download-container {
+  display: flex;
+  justify-content: center;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.download-button {
+  margin: 10px;
+  padding: 2.5px;
+  height: 36px;
+  width: 120px;
+  text-decoration: none;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 8px;
+  display: inline-block;
+  text-align: center;
+  border: 3px solid rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.download-button:hover {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border: 3px solid rgb(255, 50, 50);
+  color: rgb(255, 50, 50);
+  font-size: 20px;
+  transform: scale(1.02);
+}
+
+.checkout-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.checkout {
+  text-align: center;
+}
+
+.project-button {
+  margin: 10px;
+  padding: 2.5px;
+  height: 36px;
+  width: 120px;
+  text-decoration: none;
+  color: #000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+  border-radius: 8px;
+  display: inline-block;
+  text-align: center;
+  border: 3px solid rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.project-button:hover {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border: 3px solid #515ed6;
+  color: #515ed6;
+  font-size: 20px;
+  transform: scale(1.02);
+}
+
+.download-text {
+  display: inline;
+}
+
+.fa-file-pdf {
+  margin: 5px;
+  display: inline;
+}
