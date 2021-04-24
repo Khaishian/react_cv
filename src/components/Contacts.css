@@ -2,7 +2,6 @@
   background-image: url("./../images/answer_call.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
   padding-top: 20px;
   padding-bottom: 30px;
 }
@@ -99,7 +98,7 @@ h1 {
   height: 170px;
   width: 470px;
   color: #000;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 195, 65, 0.7);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 }
@@ -139,6 +138,10 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+  .contacts {
+    background-position: center center;
+  }
+
   .or-contact {
     margin-bottom: 10px;
   }
