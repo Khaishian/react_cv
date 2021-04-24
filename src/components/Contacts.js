@@ -39,7 +39,7 @@ function Contacts() {
           <h1>GitHub</h1>
         </a>
       </div>
-      <div className="white-card-container">
+      <div className="white-card-container last">
         <a
           className="white-card em"
           href="mailto: khaicodes99@gmail.com"

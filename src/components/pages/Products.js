@@ -1,11 +1,10 @@
 import React from "react";
-import "../../App.css";
+import ProjectPoints from "../ProjectPoints";
 
 export default function Products() {
   return (
     <div>
-      <h1 className="products">PROJECTS</h1>
-      <p>work in progress!!</p>
+      <ProjectPoints />
     </div>
   );
 }

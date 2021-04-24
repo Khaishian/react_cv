@@ -1,0 +1,46 @@
+.project-background {
+  background-image: url("./../images/discuss.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* height: 1000px; */
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.project-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.project-card {
+  margin-top: 20px;
+  padding: 15px;
+  height: 170px;
+  width: 470px;
+  color: #000;
+  background-color: rgba(255, 195, 65, 0.7);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.project-card > h2 {
+  text-align: center;
+}
+
+.project-card > p {
+  font-size: 14px;
+}
+
+.project-card > table {
+  font-size: 14px;
+}
+
+/* .intro {
+  height: 130px;
+}
+
+.intro > p {
+  text-align: center;
+} */
