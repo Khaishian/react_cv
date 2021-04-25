@@ -125,7 +125,7 @@ function ResumePoints() {
           <div className="checkout-container">
             <div className="checkout">
               <p className="checkout-text">Check out my projects here!</p>
-              <a className="project-button" href="/products">
+              <a className="project-button" href="/projects">
                 PROJECTS
               </a>
             </div>

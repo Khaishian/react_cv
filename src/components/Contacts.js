@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contacts.css";
-import CardItem from "./CardItem";
 
 function Contacts() {
   return (

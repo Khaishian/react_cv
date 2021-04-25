@@ -11,7 +11,7 @@ function Navbar() {
   const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
-    if (window.innerWidth <= 960) {
+    if (window.innerWidth <= 1000) {
       setButton(false);
     } else {
       setButton(true);
@@ -43,7 +43,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/services"
+                to="/resume"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -52,7 +52,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/projects"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -62,11 +62,11 @@ function Navbar() {
 
             <li>
               <Link
-                to="/sign-up"
+                to="/contact"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                Contact Me
+                CONTACT ME
               </Link>
             </li>
           </ul>

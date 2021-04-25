@@ -4,9 +4,9 @@ import Scroll from "./components/Scroll";
 import "./App.css";
 import Home from "./components/pages/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Services from "./components/pages/Services";
-import Products from "./components/pages/Products";
-import SignUp from "./components/pages/SignUp";
+import Resume from "./components/pages/Resume";
+import Projects from "./components/pages/Projects";
+import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -16,9 +16,9 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/services" component={Services} />
-          <Route path="/products" component={Products} />
-          <Route path="/sign-up" component={SignUp} />
+          <Route path="/resume" component={Resume} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/contact" component={Contact} />
         </Switch>
         <Scroll showBelow={20} />
         <Footer />

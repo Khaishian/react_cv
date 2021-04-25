@@ -98,7 +98,7 @@ h1 {
   height: 170px;
   width: 470px;
   color: #000;
-  background-color: rgba(255, 195, 65, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 }
@@ -137,7 +137,7 @@ h1 {
   margin: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .contacts {
     background-position: center center;
   }
@@ -149,5 +149,36 @@ h1 {
   .white-card-container {
     display: grid;
     margin-top: 0px;
+  }
+
+  .contact-info {
+    height: 170px;
+    width: 400px;
+  }
+
+  .contact-picture {
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 15px;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .contact-text {
+    display: inline-block;
+  }
+
+  .contact-text > h1 {
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .contact-text > p {
+    font-size: 15px;
   }
 }
