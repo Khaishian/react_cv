@@ -183,3 +183,9 @@ h1 {
     font-size: 15px;
   }
 }
+
+@media screen and (min-width: 2300px) {
+  .contacts {
+    height: 980px;
+  }
+}

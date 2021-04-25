@@ -70,7 +70,14 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">CONTACT ME</Button>}
+          {button && (
+            <Button
+              buttonStyle="btn--outline"
+              onClick={(event) => (window.location.href = "/contact")}
+            >
+              CONTACT ME
+            </Button>
+          )}
         </div>
       </nav>
     </>
