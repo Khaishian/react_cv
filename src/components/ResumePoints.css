@@ -212,6 +212,7 @@
 @media screen and (max-width: 1000px) {
   .resume-background {
     background-position: center center;
+    transition: height 999999s;
   }
 
   .resume-card {
