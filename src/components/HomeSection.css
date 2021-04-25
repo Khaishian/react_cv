@@ -23,7 +23,7 @@ video {
 }
 
 .home-container {
-  height: 100vh;
+  height: 700px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -67,6 +67,11 @@ video {
 }
 
 @media screen and (max-width: 1000px) {
+  video {
+    width: 150%;
+    height: 150%;
+  }
+
   .picture {
     width: 200px;
     height: 200px;
@@ -76,12 +81,16 @@ video {
   }
 
   .profile {
-    margin-top: 200px;
+    margin-top: -20px;
     flex-direction: column;
     align-items: center;
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+
+  .home-container {
+    height: 750px;
   }
 
   .home-container > div > div > h1 {
@@ -98,14 +107,13 @@ video {
     color: #fff;
     text-align: justify;
     text-justify: inter-word;
-    max-width: 400px;
+    max-width: 380px;
     font-size: 20px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
   }
 
   .home-btns {
-    margin-bottom: 200px;
   }
 
   .btn-mobile {
