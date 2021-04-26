@@ -1,14 +1,14 @@
 .navbar {
-  background: #ff8008; /* fallback for old browsers */
+  background: #9d50bb; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #ffc837,
-    #ff8008
+    #6e48aa,
+    #9d50bb
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #ffc837,
-    #ff8008
+    #6e48aa,
+    #9d50bb
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 80px;
   display: flex;
@@ -93,16 +93,16 @@
   }
 
   .nav-menu {
-    background: #ff8008; /* fallback for old browsers */
+    background: #6441a5; /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right,
-      #ffc837,
-      #ff8008
+      #2a0845,
+      #6441a5
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
       to right,
-      #ffc837,
-      #ff8008
+      #2a0845,
+      #6441a5
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
@@ -117,16 +117,16 @@
   }
 
   .nav-menu.active {
-    background: #ff8008; /* fallback for old browsers */
+    background: #6441a5; /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right,
-      #ffc837,
-      #ff8008
+      #2a0845,
+      #6441a5
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
       to right,
-      #ffc837,
-      #ff8008
+      #2a0845,
+      #6441a5
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     left: 0;

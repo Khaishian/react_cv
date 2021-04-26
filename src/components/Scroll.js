@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
     zIndex: 2,
     position: "fixed",
     bottom: "2vh",
-    backgroundColor: "#515ed6",
+    backgroundColor: "#5cd651",
     color: "white",
     "&:hover, &.Mui-focusVisible": {
       transition: "0.3s",
