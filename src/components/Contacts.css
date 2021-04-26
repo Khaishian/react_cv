@@ -186,6 +186,28 @@ h1 {
 
 @media screen and (min-width: 2300px) {
   .contacts {
-    height: 980px;
+    background-position: center center;
+  }
+
+  .contact-info-container {
+    margin-top: 200px;
+  }
+
+  .last {
+    margin-bottom: 480px;
+  }
+}
+
+@media screen and (min-height: 760px) {
+  .contacts {
+    background-position: center center;
+  }
+
+  .contact-info-container {
+    margin-top: 200px;
+  }
+
+  .last {
+    margin-bottom: 480px;
   }
 }
